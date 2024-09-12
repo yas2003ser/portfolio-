@@ -3,18 +3,17 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
+  if (props.fileName === "cyber")
+    return  <img src={require(`../../assets/images/cybersec.png`)} alt="Cyber Security" />;
+    // <DataScienceImg theme={props.theme} 
+    // />;
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return <img src={require(`../../assets/images/mobile-application.png`)} alt="Full Stack Development" />;
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+    return <img src={require(`../../assets/images/social-media.png`)} alt="Cloud Infra" />;
   return <DesignImg theme={props.theme} />;
 }
 

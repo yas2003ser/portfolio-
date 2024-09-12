@@ -88,30 +88,34 @@ const skills = {
   data: [
     {
       title: "Pentrations Testing",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Experience in Web Application Penetration Testing",
-        "⚡ Experience in Network Penetration Testing",
+      fileName: "cyber",
+      skills:[
+          "⚡ Experience in network scanning and vulnerability assessment",
+          "⚡ Proficient in penetration testing methodologies and tools",
+          "⚡ Knowledge of web application security testing",
+          "⚡ Familiarity with wireless network security testing",
+          "⚡ Understanding of social engineering techniques",
+        
       ],
       softwareSkills: [
         {
           skillName: "linux",
-          fontAwesomeClassname: "logos-tensorflow",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "windows",
+          fontAwesomeClassname: "simple-icons:windows",
           style: {
             backgroundColor: "white",
-            color: "#D00000",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Kali Linux",
+          fontAwesomeClassname: "simple-icons:kalilinux",
           style: {
             backgroundColor: "transparent",
           },
@@ -125,84 +129,45 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Metasploit",
+          fontAwesomeClassname: "simple-icons:metasploit",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+           
         },
+        {
+          skillName: "Burp Suite",
+          fontAwesomeClassname: "simple-icons:burpsuite",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        
+        {
+          skillName: "Wireshark",
+          fontAwesomeClassname: "simple-icons:wireshark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        
+        
       ],
     },
     {
       title: "Mobile Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Experience in developing Android Applications",
-        "⚡ Experience in developing iOS Applications",
-        "⚡ Experience in developing Cross Platform Applications",
+        "⚡ Developing highly interactive mobile applications for Android and iOS",
+        "⚡ Creating application backend in firebase",
+        "⚡ Building application control panel for admin",
+        "⚡ Experience in creating and managing ",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -210,73 +175,79 @@ const skills = {
             color: "#02569B",
           },
         },
-      ],
-    },
-    {
-      title: "Sponsoring in Social Media (facebook, instagram)",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience in managing social media accounts",
-        "⚡ Experience in creating and managing ads",
-        "⚡ Experience in creating and managing posts",
-      ],
-      softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
           style: {
-            color: "#4285F4",
+            color: "#3DDC84",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "iOS",
+          fontAwesomeClassname: "simple-icons:ios",
           style: {
-            color: "#FF9900",
+            color: "#000000",
           },
         },
+         
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
+          skillName: "firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Getx",
+          fontAwesomeClassname: "simple-icons:getx",
           style: {
-            color: "#336791",
+            color: "#FA7343",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "bloc",
+          fontAwesomeClassname: "simple-icons:bloc",
           style: {
-            color: "#47A248",
+            color: "#61DAFB",
+          },
+        },
+        
+       
+        
+      ],
+    },
+    {
+      title: "Sponsoring in Social Media (facebook, instagram)",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Creating and managing social media campaigns",
+        "⚡ Developing strategies for increasing followers",
+        "⚡ Creating and managing social media ads",
+        "⚡ Experience in creating and managing ",
+      ],
+      softwareSkills: [
+        {
+          skillName: "facebook",
+          fontAwesomeClassname: "simple-icons:facebook",
+          style: {
+            color: "#4285F4",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "instagram",
+          fontAwesomeClassname: "simple-icons:instagram",
           style: {
-            color: "#1488C6",
+            color: "#E4405F",
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "meta",
+          fontAwesomeClassname: "simple-icons:meta",
           style: {
-            color: "#326CE5",
+            color: "#0089D6",
           },
         },
+       
       ],
     },
     // {
