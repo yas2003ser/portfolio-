@@ -20,7 +20,7 @@ export default function Projects() {
       request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`,
+            authorization: `Bearer ${openSource.githubConvertedToken}`,
           },
         });
       },
@@ -30,23 +30,21 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
+            user(login: "${openSource.githubUserName}") {
+              pinnedItems(first: 6) {
+                nodes {
+                  ... on Repository {
+                    name
+                    description
+                    stargazers {
+                      totalCount
+                    }
+                    forkCount
+                    url
+                    id
+                    languages(first: 10) {
+                      nodes {
                         name
-                        color
                       }
                     }
                   }
@@ -57,8 +55,7 @@ export default function Projects() {
         `,
       })
       .then((result) => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
-        console.log(result);
+        setrepoFunction(result.data.user.pinnedItems.nodes);
       });
   }
 

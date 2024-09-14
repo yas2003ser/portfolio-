@@ -644,7 +644,7 @@ const contactPageData = {
     postalCode: "05000",
     streetAddress: "Bouakal 03",
     avatar_image_path: "address_image.svg",
-    location_map_link: "",
+    location_map_link: null,
   },
   phoneSection: {
     title: "",
