@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1GoQmfGaFe0W-XkESSghUqQft5SoCQbcY/view?usp=drive_link",
+    "https://drive.google.com/file/d/1xxlTHyV5J5YiJs8k-uZwsfyUMT0tvXwY/view?usp=sharing",
   portfolio_repository: "https://github.com/yas2003/portfolio-",
   githubProfile: "https://github.com/yas2003ser",
 };
@@ -78,14 +78,19 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Pentrations Testing",
+      title: "Pentrations Testing and bug bounty",
       fileName: "cyber",
       skills: [
-        "⚡ Experience in network scanning and vulnerability assessment",
-        "⚡ Proficient in penetration testing methodologies and tools",
-        "⚡ Knowledge of web application security testing",
-        "⚡ Familiarity with wireless network security testing",
-        "⚡ Understanding of social engineering techniques",
+        "⚡ Experience in performing penetration testing on web applications, networks, and systems",
+        "⚡ Knowledge of various penetration testing tools like Nmap, Burp Suite, Metasploit, and Wireshark",
+        "⚡ Experience in finding and reporting security vulnerabilities",
+        "⚡ Developed an understanding of cyber security concepts .",
+        "⚡ Practiced in TryHackMe and Hack The Box and participated in many CTF events.",
+        "⚡ Conducting bug bounty hunting on web applications to identify and report security vulnerabilities",
+        "⚡ Familiarity with bug bounty platforms like HackerOne, Bugcrowd, and Synack",
+        
+
+
       ],
       softwareSkills: [
         {
@@ -361,6 +366,39 @@ const degrees = {
       ],
       website_link: "https://cs50.harvard.edu/x/2024/",
     },
+    {
+      title: "mobile development self education",
+      subtitle: "Online",
+      logo_path: "",
+      alt_name: "Flutter",
+      duration: "2023 - 2024",
+      descriptions: [
+        "⚡ I have gained a solid understanding of mobile development fundamentals through the mobile development self education course offered by Udemy",
+        "⚡ Learned the basics of programming languages like Dart, and Flutter.",
+        "⚡ Developed problem-solving skills through various programming assignments and projects.",
+        "⚡ Explored topics such as widgets, state management, memory management, and recursion.",
+        "⚡ Learned about firebase, and working with libraries.",
+        "⚡ Developed an understanding of mobile development concepts and built mobile applications using flutter.",
+      ],
+      website_link: "",
+    },
+    {
+      title: "cyber security self education",
+      subtitle: "Online",
+      logo_path: "",
+      alt_name: "",
+      duration: "2024 - present",
+      descriptions: [
+        "⚡ I have gained a solid understanding of cyber security fundamentals through the cyber security self education course offered by Udemy, and other platforms",
+        "⚡ Learned the basics of cyber security concepts like network scanning, vulnerability assessment, penetration testing, and social engineering.",
+        "⚡ Explored topics such as web application security testing, wireless network security testing, and social engineering techniques.",
+        "⚡ Learned about cyber security tools like Kali Linux, Metasploit, Burp Suite, and Wireshark.",
+        "⚡ Developed an understanding of cyber security concepts .",
+        "⚡ Practiced in TryHackMe and Hack The Box and participated in many CTF events.",
+        "⚡ Learn content of Ejptv2, security +,RHCSA, OSCP ,MCSA, eWAPT",
+      ],
+      website_link: "",
+    },
   ],
 };
 
@@ -429,51 +467,51 @@ const certifications = {
       alt_name: "udemy",
       color_code: "#ffffff",
     },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
+    {
+      title: "RHCSA Red Hat Certified System Administrator from udemy",
+      subtitle: "- Red Hat ",
+      logo_path: "rhcsa.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-426dd83e-81db-4782-8ae9-8ee93897f4fe/",
+      alt_name: "Red Hat",
+      color_code: "#00000099",
+    },
+    {
+      title: "MCSA Windows Server 2019 from udemy",
+      subtitle: "- Microsoft",
+      logo_path: "mcsa.jpeg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-426dd83e-81db-4782-8ae9-8ee93897f4fe/",
+      alt_name: "udemy",
+      color_code: "#2A73CC",
+    },
+    {
+      title: "security + from udemy",
+      subtitle: "- CompTIA",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-b67a221f-4440-4b80-b32a-d30f9aa3dd9a/",
+      alt_name: "udemy",
+      color_code: "#4285F499",
+    },
+    {
+      title: "Ejptv2 from udemy",
+      subtitle: "- pentration testing",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-c6aad497-9eaa-44c6-9786-6837035cb231/",
+      alt_name: "pentration testing",
+      color_code: "#FFBB0099",
+    },
+    {
+      title: "Cyber security red teaming",
+      subtitle: "- red nexus academy",
+      logo_path: "red_nexus.jpg",
+      certificate_link:
+        "https://www.linkedin.com/in/yasser-laroussi-43b451258/details/certifications/1731620941443/single-media-viewer/?profileId=ACoAAD9tDi8B7yUcgSRI45l4Tw7dezOgP6MXEBA",
+      alt_name: "GCP",
+      color_code: "#4285F499",
+    },
   ],
 };
 
@@ -637,17 +675,17 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Algeria, Batna",
-    locality: "Batna",
-    country: "Algeria",
-    region: "Batna",
-    postalCode: "05000",
-    streetAddress: "Bouakal 03",
+    subtitle: "Saudia, makkah",
+    locality: "makkah",
+    country: "Saudia",
+    region: "makkah",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
     location_map_link: null,
   },
   phoneSection: {
-    title: "",
+    title: "+966575938287",
     subtitle: "",
   },
 };
